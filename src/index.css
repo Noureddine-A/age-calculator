@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: bold;
+  src: url('./assets/fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: boldItalic;
+  src: url('./assets/fonts/Poppins-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: extraBold;
+  src: url('./assets/fonts/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: extraBoldItalic;
+  src: url('./assets/fonts/Poppins-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: italic;
+  src: url('./assets/fonts/Poppins-Italic.ttf');
+}
+
+@font-face {
+  font-family: regular;
+  src: url('./assets/fonts/Poppins-Regular.ttf');
+}
+
+:root {
+
+  /*Color*/
+  --purple: hsl(259, 100%, 65%);
+  --light-red: hsl(0, 100%, 67%);
+
+  /*Neutral*/
+  --white: hsl(0, 0%, 100%);
+  --off-white: hsl(0, 0%, 94%);
+  --light-grey: hsl(0, 0%, 86%);
+  --smokey-grey:hsl(0, 1%, 44%);
+
+  /*Fontsize*/
+  --font-size-input: 32px;
+
+  /*Fontfamily*/
+  --font-family-bold: bold;
+  --font-family-bold-italic: boldItalic;
+  --font-family-extra-bold: extraBold;
+  --font-family-extra-bold-italic: extraBoldItalic;
+  --font-family-italic: italic;
+  --font-family-regular: regular;
+}

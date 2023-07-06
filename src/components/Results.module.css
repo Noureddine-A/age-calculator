@@ -1,0 +1,24 @@
+.results__container2 {
+    display: block;
+    width: 100%;
+    margin-top: 4rem;
+    font-family: var(--font-family-extra-bold-italic);
+}
+
+.results__container2 h1 {
+    font-size: 90px;
+    height:fit-content;
+    margin-top: -2.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .results__container2 {
+        margin-top: 6rem;
+    }
+
+    .results__container2 h1 {
+        font-size: 55px;
+        margin-top: -1.5rem;
+    }
+}
